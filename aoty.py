@@ -1,11 +1,12 @@
+from flask import Flask, jsonify
 from albumoftheyearapi import AOTY
 
-client = AOTY()
-info = client.user_ratings_all('ma31n', max_pages=None)
+app = Flask(__name__)
 
-file = open('AOTYjson.txt',"w")
-file.write(str(info))
-file.close()
+@app.route("/user/<username>")
+def get_user(username):
+    client = AOTY()
+    info = client.user_ratings_all(username, max_pages=None)
+    return jsonify(info)
 
-print("done")
 
