@@ -1,3 +1,4 @@
 Flask
 album-of-the-year-api
 gunicorn
+flask-cors
