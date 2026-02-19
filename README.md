@@ -1,6 +1,6 @@
 # AOTY Wallpaper Helper
 
-A lightweight Python backend that fetches user rating data from AlbumOfTheYear. Exposed through a simple HTTP API for use in ['https://github.com/ma31n/AOTY-Wallpaper'](AOTY-Wallpaper).
+A simple Python backend that fetches user rating data from AlbumOfTheYear. Exposed through a simple HTTP API for use in [AOTY-Wallpaper](https://github.com/ma31n/AOTY-Wallpaper).
 
 This service is intended to be deployed (e.g., on Render) and consumed by a Web wallpaper via `fetch()`.
 
@@ -10,7 +10,7 @@ This service is intended to be deployed (e.g., on Render) and consumed by a Web 
 
 This project:
 
-- Uses ['https://github.com/JahsiasWhite/AlbumOfTheYearAPI'](AlbumOfTheYearAPI) by JahsiasWhite.
+- Uses [AlbumOfTheYearAPI](https://github.com/JahsiasWhite/AlbumOfTheYearAPI) by JahsiasWhite.
 - Exposes a REST endpoint via Flask
 - Is designed with Wallpaper Engine Web wallpapers in mind (though it can be loaded in any program supporting web wallpapers)
 
