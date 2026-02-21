@@ -24,7 +24,7 @@ Returns all ratings for the specified AlbumOfTheYear user.
 
 Example:
 
-[https://your-backend-url.onrender.com/user/ma31n](https://aotywallpaperhelper-1.onrender.com/user/ma31n)
+https://aotywallpaperhelper-1.onrender.com/user/ma31n
 
 Response: JSON containing user rating data.
 
