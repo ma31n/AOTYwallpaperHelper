@@ -42,4 +42,4 @@ Response: JSON containing user rating data.
 ## Notes
 
 - CORS is enabled for cross-origin access.
-- Functionality depends on the current structure of AlbumOfTheYear.
+- Functionality depends on the current structure of AlbumOfTheYearAPI.
